@@ -1,0 +1,102 @@
+.container{
+    height:80rem;
+    width:120rem;
+    background:rgba(172, 210, 237,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.btn{
+    font-size: 2rem;
+    padding:.7rem 4rem;
+    background:rgba(255,255,255,.2);
+    color:rgb(74, 87, 89);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    margin-top: 1rem;
+    cursor: pointer;
+    transition:.2s linear;
+}
+
+.btn:hover{
+    background:rgba(255,255,255,.5);
+    color:#555;
+}
+.contact .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7rem;
+    align-items: center;
+}
+
+.contact .row form{
+    background:rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.contact .row form .box{
+    background:rgba(255,255,255,.1);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    padding:0 1rem;
+    margin:1rem 0;
+    height:4rem;
+    width:45%;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+}
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding:2rem;
+    margin-top: 8rem;
+    color:rgb(74, 87, 89);
+
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+    color:rgb(74, 87, 89);
+}
+
+.contact .row form .message{
+    padding:1rem;
+    height:15rem;
+    resize: none;
+    width:100%;
+}
+
+.contact .row form .btn{
+    margin-bottom: 1rem;
+}
+
+.contact .row .content{
+    padding:0 5rem;
+}
+
+.contact .row .content .icons{
+    padding:1rem 0;
+}
+
+.contact .row .content .icons h3{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:rgb(74, 87, 89);
+    display: flex;
+}
+
+.contact .row .content .icons h3 i{
+    padding-right: .5rem;
+}
+
+.contact .row .content .icons p{
+    font-size: 1.5rem;
+    color:rgb(74, 87, 89);
+}

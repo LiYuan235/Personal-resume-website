@@ -1,0 +1,70 @@
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding:1rem;
+    color:#fff;
+
+}
+
+header{
+    width:35rem;
+    background:rgba(172, 210, 237,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    text-align: center;
+    padding:1rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+
+header .user{
+    padding-top: 2rem;
+}
+
+header .user img{
+    margin:1rem 0;
+    height:15rem;
+    width:15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1rem rgba(255,255,255,.2);
+}
+
+header .user .name{
+    font-size: 3rem;
+    color:rgb(74, 87, 89);
+    padding:.5rem 0;
+}
+
+header .user .post{
+    font-size: 1.8rem;
+    color:rgb(74, 87, 89);
+    font-weight: lighter;
+}
+
+header .navbar{
+    padding:1rem 3rem;
+}
+
+header .navbar ul li{
+    margin:1rem 0;
+    list-style: none;
+    position: relative;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    font-size: 2rem;
+    color:rgb(74, 87, 89);
+    background:rgba(255,255,255,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    border-radius: 1rem;
+    transition: all .2s linear;
+}
+header .navbar ul li a:hover{
+    background:rgba(255,255,255,.5);
+    color:rgb(31, 3, 24);
+    transform: scale(1.08);
+}
+

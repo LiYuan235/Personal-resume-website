@@ -1,0 +1,88 @@
+.container{
+    height:80rem;
+    width:120rem;
+    background:rgba(172, 210, 237,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    padding:1rem;
+    color:rgb(74, 87, 89);
+
+}
+section{
+    padding:1rem 7%;
+    min-height: 100%;
+}
+.about .content h3{
+    padding:2rem 0;
+    font-size: 2.5rem;
+    color:rgb(74, 87, 89);
+}
+
+.about .content h3 span{
+    padding:2rem 0;
+    color:rgb(74, 87, 89);
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:rgb(74, 87, 89);
+    padding:2rem 0;
+}
+
+.about .skills{
+    padding:1rem 0;
+}
+
+.about .skills .progress{
+    margin:1.5rem 0;
+    padding:1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    border-radius: 1rem;
+}
+
+.about .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:rgb(74, 87, 89);
+}
+
+.about .skills .progress .bar{
+    position: relative;
+    width: 100%;
+    height:.3rem;
+    margin:1rem 0;
+    background:#555;
+}
+
+.about .skills .progress .bar span{
+    position: absolute;
+    top:0; left: 0;
+    height:100%;
+    width:100%;
+    background:rgb(74, 87, 89);
+}
+
+.about .skills .progress:nth-child(1) .bar span{
+    width:95%;
+}
+
+.about .skills .progress:nth-child(2) .bar span{
+    width:85%;
+}
+
+.about .skills .progress:nth-child(3) .bar span{
+    width:65%;
+}
+
+.about .skills .progress:nth-child(4) .bar span{
+    width:70%;
+}

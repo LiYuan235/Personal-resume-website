@@ -1,0 +1,32 @@
+.container{
+    height:80rem;
+    width:120rem;
+    background:rgba(172, 210, 237,.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+    backdrop-filter: blur(.4rem);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.container h3{
+    margin:1rem 5rem;
+    font-size: 2rem;
+    color: #4A5759;
+}
+.container h3 a{
+    color: #586C82;
+}
+.btn:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+.container ul li{
+    margin-left:7rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #4A5759;
+}
+.title{
+    margin:2.5rem 5rem;
+    font-size: 3rem;
+    color: #4A5759;
+}
